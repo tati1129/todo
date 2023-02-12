@@ -1,0 +1,28 @@
+.day {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+  }
+  .del_btn{
+      display: none;
+      border-radius: 50%;
+      border: none;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      background-color: red;
+      font-size: 75%;
+      top: -5px;
+      right: -5px;
+      cursor: pointer;
+      color: white;
+  }
+
+  .day:hover .del_btn {
+    display: block;
+  }

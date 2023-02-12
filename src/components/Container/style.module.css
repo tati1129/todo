@@ -1,0 +1,23 @@
+.container{
+    
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    width: 660px;
+    margin: 20px;
+
+    position: relative;
+    border-radius: 10px;
+}
+.container_day {
+    background-color: #34495e;
+    color: white;
+    width: 60px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    min-width: 70px;
+  }

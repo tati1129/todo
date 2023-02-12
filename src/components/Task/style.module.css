@@ -1,0 +1,55 @@
+
+.task{
+    background-color: #ffffff;
+}
+.task_day{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.red{
+    background-color: rgb(247, 62, 62);
+    border:  0.5 solid rgb(179, 15, 15); ;
+    color: white;
+    padding-left: 10px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.green{
+    background-color:  #1abc9c;
+    border: 0.5 solid rgb(3, 108, 3);
+    color: white;
+    padding-left: 10px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.task_del_btn{
+    display: none;
+  border-radius: 50%;
+  border: 0.2px solid black;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-size: 75%;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.task:hover .task_del_btn {
+  display: block;
+}
