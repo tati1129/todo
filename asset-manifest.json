@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tati1129.github.io/todo/static/css/main.0886194a.css",
-    "main.js": "/tati1129.github.io/todo/static/js/main.a7b14a88.js",
-    "index.html": "/tati1129.github.io/todo/index.html",
-    "main.0886194a.css.map": "/tati1129.github.io/todo/static/css/main.0886194a.css.map",
-    "main.a7b14a88.js.map": "/tati1129.github.io/todo/static/js/main.a7b14a88.js.map"
+    "main.css": "/todo/static/css/main.0886194a.css",
+    "main.js": "/todo/static/js/main.a7b14a88.js",
+    "index.html": "/todo/index.html",
+    "main.0886194a.css.map": "/todo/static/css/main.0886194a.css.map",
+    "main.a7b14a88.js.map": "/todo/static/js/main.a7b14a88.js.map"
   },
   "entrypoints": [
     "static/css/main.0886194a.css",
